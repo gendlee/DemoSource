@@ -7,6 +7,10 @@ public class DoublyLinkedListTest {
 
         // 1、创建双向链表
         doublyLinkedList.create(array);
-        doublyLinkedList.print(); // 输出：[ -1 ] ⇆ [ 5 ] ⇆ [ 8 ] ⇆ [ 4 ]—>NULL
+        doublyLinkedList.print(); // 输出：[ -1 ]⇆[ 5 ]⇆[ 8 ]⇆[ 4 ]—>NULL
+
+        // 2、中间插入：第3个节点插入值9
+        doublyLinkedList.insert(3, 9);
+        doublyLinkedList.print(); // 输出：[ -1 ]⇆[ 5 ]⇆[ 9 ]⇆[ 8 ]⇆[ 4 ]—>NULL
     }
 }

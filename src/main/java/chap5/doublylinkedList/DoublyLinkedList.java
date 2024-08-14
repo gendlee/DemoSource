@@ -40,8 +40,27 @@ public class DoublyLinkedList {
      * @param index 第几个节点，从1开始
      * @param val 节点值
      */
-    public void insert(int index, int val) {
+    public void insert(int index, int val) throws IllegalArgumentException {
+        if (index > (length + 1) || index < 0) {
+            throw new IllegalArgumentException("超出操作范围，当前链表长度：" + length);
+        }
+        if (1 == index || index == (length + 1)) {
+            throw new IllegalArgumentException("不支持头部和尾部插入节点，请使用对应的方法！");
+        }
 
+        DNode cur = head;
+        // 找到第index - 1个节点
+        for (int i = 1; i < index - 1; i++) {
+            cur = cur.getNext();
+        }
+        DNode node = new DNode(val);  // 新建节点
+        DNode temp = cur.getNext();  // 保存cur的next节点
+        cur.setNext(node);  // cur的next设置为node
+        node.setNext(temp);  // node的next设置为temp
+        node.setPrev(cur);  // node的prev设置为cur
+        temp.setPrev(node);  // temp的prev设置为node
+
+        length++; // 更细链表长度
     }
 
     /**
@@ -90,7 +109,7 @@ public class DoublyLinkedList {
         DNode cur = head;
         while (cur != null) {
             if (cur.getNext() != null) {
-                System.out.print("[ " + cur.getValue() + " ] ⇆ ");
+                System.out.print("[ " + cur.getValue() + " ]⇆");
             } else {
                 System.out.print("[ " + cur.getValue() + " ]—>");
             }
