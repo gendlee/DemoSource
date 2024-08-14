@@ -21,5 +21,17 @@ public class DoublyLinkedListTest {
         doublyLinkedList.insertAtTail(6);
         doublyLinkedList.print(); // 输出：[ -2 ]⇆[ -1 ]⇆[ 5 ]⇆[ 9 ]⇆[ 8 ]⇆[ 4 ]⇆[ 6 ]—>NULL
 
+        // 5、中间删除：删除目标值9的节点
+        doublyLinkedList.remove(9);
+        doublyLinkedList.print(); // 输出：[ -2 ]⇆[ -1 ]⇆[ 5 ]⇆[ 8 ]⇆[ 4 ]⇆[ 6 ]—>NULL
+
+        // 6、删除头部节点
+        doublyLinkedList.removeAtHead();
+        doublyLinkedList.print(); // 输出：[ -1 ]⇆[ 5 ]⇆[ 8 ]⇆[ 4 ]⇆[ 6 ]—>NULL
+
+        // 7、删除尾部节点
+        doublyLinkedList.removeAtTail();
+        doublyLinkedList.print(); // 输出：[ -1 ]⇆[ 5 ]⇆[ 8 ]⇆[ 4 ]—>NULL
+
     }
 }

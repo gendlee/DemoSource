@@ -96,24 +96,51 @@ public class DoublyLinkedList {
 
     /**
      * 删除中间节点
-     * @param index 第几个节点，从1开始
+     * @param target 待删除的节点目标值
      */
-    public void remove(int index) {
+    public void remove(int target) throws IllegalArgumentException {
+        if (head == null) {
+            return;
+        }
+        DNode cur = head;
+        // 寻找目标节点
+        while (cur != null && cur.getValue() != target) {
+            cur = cur.getNext();
+        }
 
+        if (cur == null) {
+            return; // 未找到目标值节点
+        }
+        if (cur.getNext() == null || cur.getPrev() == null) {
+            throw new IllegalArgumentException("不支持删除头部和尾部节点，请使用对应的方法！");
+        }
+        DNode temp = cur.getPrev();  // temp为cur的前驱节点
+        temp.setNext(cur.getNext()); // temp的后继节点设为cur的后继节点
+        cur.getNext().setPrev(temp); // cur的后继节点的前驱节点设置为temp
+        length--; // 更新链表长度
     }
 
     /**
      * 删除头部节点
      */
     public void removeAtHead() {
-
+        if (head == null) {
+            return;
+        }
+        head = head.getNext();
+        head.setPrev(null);
     }
 
     /**
      * 删除尾部节点
      */
     public void removeAtTail() {
-
+        if (tail == null) {
+            return;
+        }
+        DNode temp = tail.getPrev();
+        tail.setPrev(null);
+        tail = temp;
     }
 
     /**

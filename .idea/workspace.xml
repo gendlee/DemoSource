@@ -52,20 +52,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoublyLinkedList.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DoublyLinkedList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/chap5/doublylinkedList/DoublyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+            <state relative-caret-position="404">
+              <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoublyLinkedListTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DoublyLinkedListTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/chap5/doublylinkedList/DoublyLinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="376">
+              <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -148,8 +148,8 @@
         <option value="$PROJECT_DIR$/src/main/java/chap5/linkedlist/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap5/linkedlist/Node.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap5/doublylinkedList/DNode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chap5/doublylinkedList/DoublyLinkedList.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap5/doublylinkedList/DoublyLinkedListTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chap5/doublylinkedList/DoublyLinkedList.java" />
       </list>
     </option>
   </component>
@@ -398,7 +398,7 @@
       <workItem from="1723188716717" duration="9208000" />
       <workItem from="1723279558130" duration="15214000" />
       <workItem from="1723553145489" duration="5529000" />
-      <workItem from="1723610878353" duration="3843000" />
+      <workItem from="1723610878353" duration="6574000" />
     </task>
     <task id="LOCAL-00001" summary="chap3">
       <created>1711877862616</created>
@@ -425,7 +425,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54843000" />
+    <option name="totallyTimeSpent" value="57574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1118" extended-state="6" />
@@ -823,13 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap5/doublylinkedList/DoublyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="69" column="25" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chap5/linkedlist/LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -839,8 +832,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chap5/doublylinkedList/DoublyLinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="376">
+          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap5/doublylinkedList/DoublyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
         </state>
       </provider>
     </entry>
