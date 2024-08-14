@@ -129,6 +129,7 @@ public class DoublyLinkedList {
         }
         head = head.getNext();
         head.setPrev(null);
+        length--;
     }
 
     /**
@@ -138,9 +139,11 @@ public class DoublyLinkedList {
         if (tail == null) {
             return;
         }
-        DNode temp = tail.getPrev();
-        tail.setPrev(null);
-        tail = temp;
+        DNode temp = tail.getPrev();  // 保存tail的前驱节点
+        temp.setNext(null);  // temp无后继节点，即最后一个节点
+        tail.setPrev(null);  // tail去掉前驱节点
+        tail = temp; // 更新尾节点为temp
+        length--;
     }
 
     /**
