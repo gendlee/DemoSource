@@ -12,5 +12,14 @@ public class DoublyLinkedListTest {
         // 2、中间插入：第3个节点插入值9
         doublyLinkedList.insert(3, 9);
         doublyLinkedList.print(); // 输出：[ -1 ]⇆[ 5 ]⇆[ 9 ]⇆[ 8 ]⇆[ 4 ]—>NULL
+
+        // 3、头部插入：插入值-2
+        doublyLinkedList.insertAtHead(-2);
+        doublyLinkedList.print(); // 输出：[ -2 ]⇆[ -1 ]⇆[ 5 ]⇆[ 9 ]⇆[ 8 ]⇆[ 4 ]—>NULL
+
+        // 4、尾部插入：插入值6
+        doublyLinkedList.insertAtTail(6);
+        doublyLinkedList.print(); // 输出：[ -2 ]⇆[ -1 ]⇆[ 5 ]⇆[ 9 ]⇆[ 8 ]⇆[ 4 ]⇆[ 6 ]—>NULL
+
     }
 }

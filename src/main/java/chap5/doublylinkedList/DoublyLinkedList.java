@@ -60,7 +60,7 @@ public class DoublyLinkedList {
         node.setPrev(cur);  // node的prev设置为cur
         temp.setPrev(node);  // temp的prev设置为node
 
-        length++; // 更细链表长度
+        length++; // 更新链表长度
     }
 
     /**
@@ -68,7 +68,14 @@ public class DoublyLinkedList {
      * @param val
      */
     public void insertAtHead(int val) {
-
+        if (head == null) {
+            return;
+        }
+        DNode node = new DNode(val); // 新建节点
+        head.setPrev(node);  // head的前驱节点设置为node
+        node.setNext(head);  // node的后继节点设置为head
+        head = node;         // 更新链表的head节点为node
+        length++; // 更新链表长度
     }
 
     /**
@@ -76,7 +83,14 @@ public class DoublyLinkedList {
      * @param val
      */
     public void insertAtTail(int val) {
-
+        if (tail == null) {
+            return;
+        }
+        DNode node = new DNode(val); // 新建节点
+        tail.setNext(node);  // tail的后继节点为node
+        node.setPrev(tail);  // node的前驱节点为tail
+        tail = node;  // 更新tail为node
+        length++;  // 更新链表长度
     }
 
 
