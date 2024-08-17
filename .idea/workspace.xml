@@ -2,9 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2edd7235-b3b4-4485-975e-052734539f0e" name="Default" comment="加法">
+      <change afterPath="$PROJECT_DIR$/src/main/java/chap5/circleQueue/CircleQueueByArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chap5/linkedListQueue/LinkedListQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chap5/linkedListQueue/LinkedListQueueTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/circlequeue/CirlcleQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap5/circlequeue/CirlcleQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/circlequeue/CirlcleQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap5/circlequeue/CirlcleQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/circlequeue/CirlcleQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap5/circleQueue/CircleQueueByArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/circlequeue/CirlcleQueueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/doublylinkedList/DNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap5/doublyLinkedList/DNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/doublylinkedList/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap5/doublyLinkedList/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/doublylinkedList/DoublyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap5/doublyLinkedList/DoublyLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap5/linkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/linkedlist/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap5/linkedList/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/linkedlist/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap5/linkedList/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chap5/circlequeue/CirlcleQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chap5/circlequeue/CirlcleQueueTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chap5/doublylinkedList/DNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chap5/doublylinkedList/DNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chap5/doublylinkedList/DoublyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chap5/doublylinkedList/DoublyLinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chap5/doublylinkedList/DoublyLinkedListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chap5/doublylinkedList/DoublyLinkedListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chap5/linkedlist/LinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chap5/linkedlist/LinkedList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chap5/linkedlist/LinkedListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chap5/linkedlist/LinkedListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/chap5/linkedlist/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chap5/linkedlist/Node.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,25 +35,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap5/linkedlist/LinkedList.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap5/linkedList/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4185">
-              <caret line="155" column="3" selection-start-line="155" selection-start-column="3" selection-end-line="166" selection-end-column="5" />
+            <state relative-caret-position="-4628">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap5/doublylinkedList/DNode.java">
+      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap5/linkedList/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" selection-start-line="5" selection-end-line="39" selection-end-column="1" />
+            <state relative-caret-position="216">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="DoublyLinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap5/doublylinkedList/DoublyLinkedList.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap5/doublyLinkedList/DoublyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3510">
               <caret line="130" column="27" selection-start-line="130" selection-start-column="27" selection-end-line="130" selection-end-column="27" />
@@ -47,8 +64,8 @@
       <file leaf-file-name="SeqQueue.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/chap5/seqQueue/SeqQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1890">
-              <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="90" selection-end-column="5" />
+            <state relative-caret-position="351">
+              <caret line="90" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="90" selection-end-column="5" />
               <folding>
                 <element signature="e#416#417#0" expanded="true" />
                 <element signature="e#460#461#0" expanded="true" />
@@ -61,16 +78,16 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/chap5/seqQueue/SeqQueueTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="12" selection-end-column="28" />
+              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CirlcleQueue.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap5/circlequeue/CirlcleQueue.java">
+      <file leaf-file-name="CircleQueueByArray.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap5/circleQueue/CircleQueueByArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            <state relative-caret-position="270">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="29" />
               <folding>
                 <element signature="e#630#631#0" expanded="true" />
                 <element signature="e#666#667#0" expanded="true" />
@@ -79,38 +96,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CirlcleQueueTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap5/circlequeue/CirlcleQueueTest.java">
+      <file leaf-file-name="CircleQueueByArrayTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap5/circleQueue/CircleQueueByArrayTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            <state relative-caret-position="135">
+              <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedListQueue.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap5/linkedListQueue/LinkedListQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1107">
+              <caret line="43" column="24" lean-forward="true" selection-end-line="111" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#715#716#0" expanded="true" />
+                <element signature="e#764#765#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedListQueueTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap5/linkedListQueue/LinkedListQueueTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="DoublyLinkedListTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap5/doublylinkedList/DoublyLinkedListTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap5/doublyLinkedList/DoublyLinkedListTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="864">
               <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LinkedListTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap5/linkedlist/LinkedListTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayModifyTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap5/array/ArrayModifyTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -163,6 +185,14 @@
         <option value="$PROJECT_DIR$/src/main/java/chap5/seqQueue/SeqQueueTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap5/circlequeue/CirlcleQueueTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap5/circlequeue/CirlcleQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chap5/circlequeue/byArray/CirlcleQueue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chap5/circlequeue/byLinkedList/CircleQueueByLL.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chap5/circlequeue/byArray/CirlcleQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chap5/circlequeue/byArray/CircleQueueByArrayTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chap5/circlequeue/byLinkedList/CircleQueueByLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chap5/byLinkedList/CircleQueueByLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chap5/linkedListQueue/LinkedListQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chap5/linkedListQueue/LinkedListQueue.java" />
       </list>
     </option>
   </component>
@@ -237,7 +267,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="chap5" type="462c0819:PsiDirectoryNode" />
-              <item name="circlequeue" type="462c0819:PsiDirectoryNode" />
+              <item name="circleQueue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chap5" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedListQueue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="demo1" type="b2602c69:ProjectViewProjectNode" />
@@ -280,47 +319,47 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CirlcleQueueTest">
-    <configuration name="ArrayDeleteTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap5.array.ArrayDeleteTest" />
+  <component name="RunManager" selected="Application.LinkedListQueueTest">
+    <configuration name="CircleQueueByArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap5.circlequeue.byArray.CircleQueueByArrayTest" />
       <module name="demo1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap5.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="CirlcleQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap5.circlequeue.CirlcleQueueTest" />
-      <module name="demo1" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap5.circlequeue.*" />
+          <option name="PATTERN" value="chap5.circlequeue.byArray.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="DoublyLinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap5.doublylinkedList.DoublyLinkedListTest" />
+      <option name="MAIN_CLASS_NAME" value="chap5.doublyLinkedList.DoublyLinkedListTest" />
       <module name="demo1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap5.doublylinkedList.*" />
+          <option name="PATTERN" value="chap5.doublyLinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="LinkedListQueueTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap5.linkedListQueue.LinkedListQueueTest" />
+      <module name="demo1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap5.linkedListQueue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="LinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap5.linkedlist.LinkedListTest" />
+      <option name="MAIN_CLASS_NAME" value="chap5.linkedList.LinkedListTest" />
       <module name="demo1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap5.linkedlist.*" />
+          <option name="PATTERN" value="chap5.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -378,19 +417,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ArrayDeleteTest" />
       <item itemvalue="Application.LinkedListTest" />
       <item itemvalue="Application.DoublyLinkedListTest" />
       <item itemvalue="Application.SeqQueueTest" />
-      <item itemvalue="Application.CirlcleQueueTest" />
+      <item itemvalue="Application.CircleQueueByArrayTest" />
+      <item itemvalue="Application.LinkedListQueueTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CirlcleQueueTest" />
+        <item itemvalue="Application.LinkedListQueueTest" />
+        <item itemvalue="Application.CircleQueueByArrayTest" />
         <item itemvalue="Application.SeqQueueTest" />
         <item itemvalue="Application.DoublyLinkedListTest" />
         <item itemvalue="Application.LinkedListTest" />
-        <item itemvalue="Application.ArrayDeleteTest" />
       </list>
     </recent_temporary>
   </component>
@@ -418,7 +457,7 @@
       <workItem from="1723811044410" duration="144000" />
       <workItem from="1723815923178" duration="1866000" />
       <workItem from="1723880495645" duration="4492000" />
-      <workItem from="1723893789669" duration="639000" />
+      <workItem from="1723893789669" duration="5721000" />
     </task>
     <task id="LOCAL-00001" summary="chap3">
       <created>1711877862616</created>
@@ -445,14 +484,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72717000" />
+    <option name="totallyTimeSpent" value="77799000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1118" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32799146" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -460,12 +499,13 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30235043" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33760685" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30235043" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33760685" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4968153" visible="true" weight="0.23684211" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32905984" />
       <window_info id="Structure" order="1" sideWeight="0.50318474" side_tool="true" weight="0.25455466" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -477,8 +517,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32799146" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,20 +557,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="加法" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap5/array/ArrayFindTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap5/array/ArrayInsertTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chap5/array/ArrayAppendTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -787,28 +811,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chap5/linkedlist/LinkedListOperator.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap5/linkedlist/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" selection-start-line="6" selection-start-column="3" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap5/doublylinkedList/DNode.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap5/doublyLinkedList/DNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" selection-start-line="5" selection-end-line="39" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap5/linkedlist/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4185">
-          <caret line="155" column="3" selection-start-line="155" selection-start-column="3" selection-end-line="166" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap5/linkedlist/LinkedListTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap5/linkedList/LinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="45" />
@@ -822,24 +832,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap5/doublylinkedList/DoublyLinkedListTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap5/doublyLinkedList/DoublyLinkedListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
           <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap5/doublylinkedList/DoublyLinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap5/doublyLinkedList/DoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3510">
           <caret line="130" column="27" selection-start-line="130" selection-start-column="27" selection-end-line="130" selection-end-column="27" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap5/linkedList/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chap5/seqQueue/SeqQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="74" column="4" selection-start-line="74" selection-start-column="4" selection-end-line="90" selection-end-column="5" />
+        <state relative-caret-position="351">
+          <caret line="90" column="5" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="90" selection-end-column="5" />
           <folding>
             <element signature="e#416#417#0" expanded="true" />
             <element signature="e#460#461#0" expanded="true" />
@@ -847,27 +864,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap5/circleQueue/CircleQueueByArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chap5/seqQueue/SeqQueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="12" selection-end-column="28" />
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap5/circlequeue/CirlcleQueueTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap5/linkedList/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        <state relative-caret-position="-4628">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap5/circlequeue/CirlcleQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap5/linkedListQueue/LinkedListQueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="475">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap5/circleQueue/CircleQueueByArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="29" />
           <folding>
             <element signature="e#630#631#0" expanded="true" />
             <element signature="e#666#667#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap5/linkedListQueue/LinkedListQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1107">
+          <caret line="43" column="24" lean-forward="true" selection-end-line="111" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#715#716#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
           </folding>
         </state>
       </provider>

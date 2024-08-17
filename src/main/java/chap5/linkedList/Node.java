@@ -1,4 +1,4 @@
-package chap5.linkedlist;
+package chap5.linkedList;
 
 /**
  * 单向链表节点

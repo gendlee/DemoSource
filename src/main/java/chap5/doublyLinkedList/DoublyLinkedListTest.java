@@ -1,4 +1,4 @@
-package chap5.doublylinkedList;
+package chap5.doublyLinkedList;
 
 public class DoublyLinkedListTest {
     public static void main(String[] args) {

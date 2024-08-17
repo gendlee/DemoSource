@@ -1,4 +1,4 @@
-package chap5.doublylinkedList;
+package chap5.doublyLinkedList;
 
 /**
  * 双向链表节点

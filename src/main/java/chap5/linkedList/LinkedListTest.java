@@ -1,4 +1,4 @@
-package chap5.linkedlist;
+package chap5.linkedList;
 
 public class LinkedListTest {
     public static void main(String[] args) throws Exception {

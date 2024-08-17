@@ -1,6 +1,6 @@
-package chap5.circlequeue;
+package chap5.circleQueue;
 
-public class CirlcleQueue {
+public class CircleQueueByArray {
     private int[] queue;  // 数组队列
     private int maxSize;  // 最大容量
     private int front;   // 队头指针
@@ -8,7 +8,7 @@ public class CirlcleQueue {
     private int length;  // 元素个数
 
     // 构造函数
-    public CirlcleQueue(int maxSize) {
+    public CircleQueueByArray(int maxSize) {
         this.maxSize = maxSize + 1; //其中一个位置专门给front，所以+1
         this.queue = new int[maxSize + 1];
         this.front = 0;
