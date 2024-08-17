@@ -26,7 +26,7 @@ public class CirlcleQueueTest {
         System.out.println(cirlcleQueue.dequeue());
         cirlcleQueue.print(); // 输出：[9(rear)][5][8(front)] [4] [7]
 
-        // 7、入队：-1
+        // 8、入队：-1
         cirlcleQueue.enqueue(-1);
         cirlcleQueue.print(); // 输出：[9(rear)][5][8(front)] [4] [7]
 

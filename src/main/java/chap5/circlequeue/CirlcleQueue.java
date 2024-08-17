@@ -5,7 +5,7 @@ public class CirlcleQueue {
     private int maxSize;  // 最大容量
     private int front;   // 队头指针
     private int rear;  // 队尾指针
-    private int length;  // 队列长度，元素个数
+    private int length;  // 元素个数
 
     // 构造函数
     public CirlcleQueue(int maxSize) {
