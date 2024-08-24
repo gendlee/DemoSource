@@ -10,26 +10,26 @@ public class BinaryTree<T> {
      * 插入节点
      * @param value 节点值
      */
-    public void insert(T value) {
-        root = insertRec(root, value);
+    public void insert(T value, int key) {
+        root = insertRec(root, value, key);
     }
     // 递归插入节点
-    private TreeNode<T> insertRec(TreeNode<T> root, T value) {
+    private TreeNode<T> insertRec(TreeNode<T> root, T value, int key) {
         if (root == null) {
-            root = new TreeNode(value);
+            root = new TreeNode(value, key);
             return root;
         }
 
-        // 假设TreeNode的value支持比较操作
-        if (((Comparable<T>) value).compareTo(root.value) < 0) {
-            root.left = insertRec(root.left, value);
-        } else if (((Comparable<T>) value).compareTo(root.value) > 0) {
-            root.right = insertRec(root.right, value);
+        // key小的放在左子树
+        if (key < root.key) {
+            root.left = insertRec(root.left, value, key);
+        } else if (key > root.key) {
+            // key大的放在右子树
+            root.right = insertRec(root.right, value, key);
         }
 
         return root;
     }
-
     /**
      * 层序遍历（广度优先搜索BFS）
      */
@@ -46,7 +46,7 @@ public class BinaryTree<T> {
 
         while (!queue.isEmpty()) {
             TreeNode<T> currentNode = queue.poll();
-            System.out.print(currentNode.value + " ");
+            System.out.print(currentNode.value + "["+currentNode.key+ "]" +" ");
 
             // 将左子节点加入队列
             if (currentNode.left != null) {
@@ -70,7 +70,7 @@ public class BinaryTree<T> {
     // 递归前序遍历
     private void preOrder(TreeNode<T> root){
         if (root != null) {
-            System.out.print(root.value + " ");
+            System.out.print(root.value + "["+root.key+ "]" + " ");
             preOrder(root.left);
             preOrder(root.right);
         }
@@ -88,7 +88,7 @@ public class BinaryTree<T> {
     private void inOrder(TreeNode<T> root) {
         if (root != null) {
             inOrder(root.left);
-            System.out.print(root.value + " ");
+            System.out.print(root.value + "["+root.key+ "]" + " ");
             inOrder(root.right);
         }
     }
@@ -105,25 +105,25 @@ public class BinaryTree<T> {
         if (root != null) {
             postOrder(root.left);
             postOrder(root.right);
-            System.out.print(root.value + " ");
+            System.out.print(root.value + "["+root.key+ "]" + " ");
         }
     }
 
-    public boolean search(T value) {
-        return search(root, value) != null;
+    public boolean search(int key) {
+        return search(root, key) != null;
     }
 
     // 查找节点
-    private TreeNode<T> search(TreeNode<T> root, T value) {
-        if (root == null || root.value.equals(value)) {
+    private TreeNode<T> search(TreeNode<T> root, int key) {
+        if (root == null || root.key == key) {
             return root;
         }
-
-        if (((Comparable<T>) value).compareTo(root.value) < 0) {
-            return search(root.left, value);
+        // key小于根节点的key，则去左子树找
+        if (key < root.key) {
+            return search(root.left, key);
         }
-
-        return search(root.right, value);
+        // key大于根节点的key，则去右子树找
+        return search(root.right, key);
     }
 }
 
