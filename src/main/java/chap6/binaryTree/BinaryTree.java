@@ -169,7 +169,7 @@ public class BinaryTree<T> {
             }
             // 情况3：节点有两个子节点
             else {
-                // 找到右子树的最小值节点，即中序后继
+                // 找到右子树的最小值节点,填补原来的位置
                 TreeNode minNode = findMin(root.right);
                 root.value = minNode.value;
                 root.key = minNode.key;
