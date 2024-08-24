@@ -34,6 +34,7 @@ public class BinaryTree<T> {
      * 层序遍历（广度优先搜索BFS）
      */
     public void bfs() {
+        System.out.print("层序遍历: ");
         bfs(root);
         System.out.println();
     }
@@ -64,6 +65,7 @@ public class BinaryTree<T> {
      * 前序遍历：当前节点-左子树-右子树
      */
     public void preOrder(){
+        System.out.print("前序遍历: ");
         preOrder(root);
         System.out.println();
     }
@@ -81,6 +83,7 @@ public class BinaryTree<T> {
      * 中序遍历：左子树-当前节点-右子树
      */
     public void inOrder() {
+        System.out.print("中序遍历: ");
         inOrder(root);
         System.out.println();
     }
@@ -97,6 +100,7 @@ public class BinaryTree<T> {
      * 后序遍历：左子树-右子树-当前节点
      */
     public void postOrder() {
+        System.out.print("后序遍历: ");
         postOrder(root);
         System.out.println();
     }
@@ -124,6 +128,63 @@ public class BinaryTree<T> {
         }
         // key大于根节点的key，则去右子树找
         return search(root.right, key);
+    }
+
+    /**
+     * 删除节点
+     * @param key 待删除节点的key值
+     * @return 待删除的节点指针
+     */
+    public TreeNode deleteNode(int key) {
+        return deleteNode(root, key);
+    }
+
+    /**
+     * 递归删除节点
+     */
+    private TreeNode deleteNode(TreeNode root, int key) {
+        if (root == null) {
+            return null;
+        }
+
+        // 如果key小于当前节点的key，去左子树寻找
+        if (key < root.key) {
+            root.left = deleteNode(root.left, key);
+        }
+        // 如果key大于当前节点的key，去右子树寻找
+        else if (key > root.key) {
+            root.right = deleteNode(root.right, key);
+        }
+        // 找到要删除的节点
+        else {
+            // 情况1：节点无子节点（叶子节点）
+            if (root.left == null && root.right == null) {
+                return null;
+            }
+            // 情况2：节点只有一个子节点
+            else if (root.left == null) {
+                return root.right;
+            } else if (root.right == null) {
+                return root.left;
+            }
+            // 情况3：节点有两个子节点
+            else {
+                // 找到右子树的最小值节点，即中序后继
+                TreeNode minNode = findMin(root.right);
+                root.value = minNode.value;
+                root.key = minNode.key;
+                root.right = deleteNode(root.right, minNode.key);
+            }
+        }
+        return root;
+    }
+
+    // 辅助方法：找到树的最小值节点
+    private TreeNode findMin(TreeNode node) {
+        while (node.left != null) {
+            node = node.left;
+        }
+        return node;
     }
 }
 
