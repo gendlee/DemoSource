@@ -1,5 +1,8 @@
 package chap6.binaryTree;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class BinaryTree<T> {
     private TreeNode root;  // 根节点
 
@@ -28,10 +31,41 @@ public class BinaryTree<T> {
     }
 
     /**
+     * 层序遍历（广度优先搜索BFS）
+     */
+    public void bfs() {
+        bfs(root);
+        System.out.println();
+    }
+    private void bfs(TreeNode<T> root) {
+        if (root == null) {
+            return;
+        }
+        Queue<TreeNode<T>> queue = new LinkedList();
+        queue.add(root);
+
+        while (!queue.isEmpty()) {
+            TreeNode<T> currentNode = queue.poll();
+            System.out.print(currentNode.value + " ");
+
+            // 将左子节点加入队列
+            if (currentNode.left != null) {
+                queue.add(currentNode.left);
+            }
+
+            // 将右子节点加入队列
+            if (currentNode.right != null) {
+                queue.add(currentNode.right);
+            }
+        }
+    }
+
+    /**
      * 前序遍历：当前节点-左子树-右子树
      */
     public void preOrder(){
         preOrder(root);
+        System.out.println();
     }
     // 递归前序遍历
     private void preOrder(TreeNode<T> root){
@@ -48,6 +82,7 @@ public class BinaryTree<T> {
      */
     public void inOrder() {
         inOrder(root);
+        System.out.println();
     }
     // 递归中序遍历
     private void inOrder(TreeNode<T> root) {
@@ -63,6 +98,7 @@ public class BinaryTree<T> {
      */
     public void postOrder() {
         postOrder(root);
+        System.out.println();
     }
     // 递归后序遍历
     private void postOrder(TreeNode<T> root) {
