@@ -1,4 +1,4 @@
-package chap6;
+package chap6.bloomFilter;
 
 import java.util.BitSet;
 import java.util.Random;

@@ -1,4 +1,4 @@
-package chap6;
+package chap6.bloomFilter;
 
 public class BloomFilterTest {
     public static void main(String[] args) {
