@@ -1,8 +1,8 @@
-package chap7;
+package chap7.dp;
 
 public class LeastEnergyCost {
 
-    // 最小能量消耗（最短路径）
+    // 小白兔走宫格：能量消耗最低的走法
     public static int leastEnergyCost(int[][] grid, int n, int m) {
         if (n == 1 && m == 1) {
             return grid[0][0];// 只有一个网格

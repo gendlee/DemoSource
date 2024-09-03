@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2edd7235-b3b4-4485-975e-052734539f0e" name="Default" comment="加法">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap7/ZeroOneBag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap7/JumpStairs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap7/JumpStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap7/dp/JumpStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap7/LeastEnergyCost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap7/LeastEnergyCost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap7/dp/LeastEnergyCost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap7/ZeroOneBag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap7/ZeroOneBag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap7/dp/ZeroOneBag.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,10 +21,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="JumpStairs.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap7/JumpStairs.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap7/dp/JumpStairs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+            <state relative-caret-position="108">
+              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -44,19 +48,19 @@
         </entry>
       </file>
       <file leaf-file-name="LeastEnergyCost.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap7/LeastEnergyCost.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap7/dp/LeastEnergyCost.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+            <state relative-caret-position="108">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="ZeroOneBag.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap7/ZeroOneBag.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap7/dp/ZeroOneBag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
-              <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+            <state relative-caret-position="380">
+              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -106,9 +110,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/chap5/ArrayModifyTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chap5/ArrayDeleteTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chap5/array/ArrayDeleteTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap5/linkedlist/LinkedListOperator.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap5/linkedlist/LinkedListTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap5/linkedlist/LinkedList.java" />
@@ -157,6 +158,9 @@
         <option value="$PROJECT_DIR$/src/main/java/chap7/JumpStairs.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap7/LeastEnergyCost.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap7/ZeroOneBag.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chap7/dp/JumpStairs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chap7/dp/LeastEnergyCost.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chap7/dp/ZeroOneBag.java" />
       </list>
     </option>
   </component>
@@ -222,6 +226,15 @@
               <item name="demo1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chap7" type="462c0819:PsiDirectoryNode" />
+              <item name="dp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -274,23 +287,23 @@
       </extension>
     </configuration>
     <configuration name="JumpStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap7.JumpStairs" />
+      <option name="MAIN_CLASS_NAME" value="chap7.dp.JumpStairs" />
       <module name="demo1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap7.*" />
+          <option name="PATTERN" value="chap7.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="LeastEnergyCost" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap7.LeastEnergyCost" />
+      <option name="MAIN_CLASS_NAME" value="chap7.dp.LeastEnergyCost" />
       <module name="demo1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap7.*" />
+          <option name="PATTERN" value="chap7.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -307,12 +320,12 @@
       </extension>
     </configuration>
     <configuration name="ZeroOneBag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap7.ZeroOneBag" />
+      <option name="MAIN_CLASS_NAME" value="chap7.dp.ZeroOneBag" />
       <module name="demo1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap7.*" />
+          <option name="PATTERN" value="chap7.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -410,7 +423,7 @@
       <workItem from="1724471101506" duration="16498000" />
       <workItem from="1725173344706" duration="5934000" />
       <workItem from="1725267571344" duration="3732000" />
-      <workItem from="1725337411678" duration="9204000" />
+      <workItem from="1725337411678" duration="9945000" />
     </task>
     <task id="LOCAL-00001" summary="chap3">
       <created>1711877862616</created>
@@ -437,7 +450,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150302000" />
+    <option name="totallyTimeSpent" value="151043000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1118" extended-state="6" />
@@ -457,7 +470,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.33547008" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4968153" visible="true" weight="0.2854251" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4968153" visible="true" weight="0.2854251" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.50318474" side_tool="true" weight="0.25455466" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -732,16 +745,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/pic/bplustree-print.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap6/bPlusTree/print.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="54">
-            <caret line="2" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chap6/bPlusTree/BPlusTreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1107">
@@ -812,13 +815,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap7/JumpStairs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chap3/Operators.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-15">
@@ -840,17 +836,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap7/LeastEnergyCost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap6/bPlusTree/print.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="54">
+            <caret line="2" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap7/ZeroOneBag.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap7/dp/JumpStairs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
+        <state relative-caret-position="108">
+          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap7/dp/LeastEnergyCost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap7/dp/ZeroOneBag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
         </state>
       </provider>
     </entry>

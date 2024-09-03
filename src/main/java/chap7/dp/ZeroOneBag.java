@@ -1,7 +1,16 @@
-package chap7;
+package chap7.dp;
 
+/**
+ * 0-1背包问题
+ */
 public class ZeroOneBag {
-
+    /**
+     * 求物品最大价值
+     * @param w 重量
+     * @param v 价值
+     * @param maxWeight 背包最大承重
+     * @return 最大价值
+     */
     public static int findMaxValue(int[] w, int[] v, int maxWeight) {
         int n = w.length;
         if (n == 0) {

@@ -1,8 +1,8 @@
-package chap7;
+package chap7.dp;
 
 public class JumpStairs {
 
-    // 爬楼梯
+    // 青蛙爬楼梯
     public static int jumpStairs(int n) {
         if (n == 1 || n == 2) {
             return n;
