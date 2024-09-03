@@ -37,7 +37,7 @@ public class LeastEnergyCost {
         }
         int[] dp = new int[m];
         dp[0] = grid[0][0];
-        // 处理左边界
+        // 处理上边界
         for (int j = 1; j < m; j++) {
             dp[j] = dp[j - 1] + grid[0][j];
         }

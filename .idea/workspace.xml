@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2edd7235-b3b4-4485-975e-052734539f0e" name="Default" comment="加法">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap7/JumpStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap7/LeastEnergyCost.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chap6/BloomFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chap6/BloomFilterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap7/LeastEnergyCost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap7/LeastEnergyCost.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,8 +45,8 @@
       <file leaf-file-name="LeastEnergyCost.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/chap7/LeastEnergyCost.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+            <state relative-caret-position="162">
+              <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -404,7 +400,7 @@
       <workItem from="1724471101506" duration="16498000" />
       <workItem from="1725173344706" duration="5934000" />
       <workItem from="1725267571344" duration="3732000" />
-      <workItem from="1725337411678" duration="7144000" />
+      <workItem from="1725337411678" duration="7445000" />
     </task>
     <task id="LOCAL-00001" summary="chap3">
       <created>1711877862616</created>
@@ -431,7 +427,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148242000" />
+    <option name="totallyTimeSpent" value="148543000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1118" extended-state="6" />
@@ -447,8 +443,8 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32905984" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37393162" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33547008" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37393162" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33547008" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4968153" visible="true" weight="0.2854251" />
@@ -843,8 +839,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chap7/LeastEnergyCost.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="41" column="33" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="33" />
+        <state relative-caret-position="162">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
         </state>
       </provider>
     </entry>
