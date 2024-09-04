@@ -1,6 +1,5 @@
 package chap7.dp;
 
-import com.sun.deploy.util.StringUtils;
 
 /**
  * 最短编辑距离：俄罗斯科学家Levenshtein发明，因此也叫Levenshtein距离。
