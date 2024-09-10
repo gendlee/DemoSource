@@ -15,26 +15,22 @@ public class Consumer {
     public static void main(String[] args) {
 
         Properties props = new Properties();
-        // 定义kakfa 服务的地址，不需要将所有broker指定上
-        props.put("bootstrap.servers", "localhost:9092");
-        // 制定consumer group
-        props.put("group.id", "test");
-        // 是否自动确认offset
-        props.put("enable.auto.commit", "true");
-        // 自动确认offset的时间间隔
-        props.put("auto.commit.interval.ms", "1000");
+        props.put("bootstrap.servers", "localhost:9092");// kakfa服务的地址
+        props.put("group.id", "test");  // 制定消费组
+        props.put("enable.auto.commit", "true");  // 自动确认offset
+        props.put("auto.commit.interval.ms", "1000"); // 自动确认offset的时间间隔
         // key的序列化类
         props.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
         // value的序列化类
         props.put("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
-        // 定义consumer
+
         KafkaConsumer<String, String> consumer = new KafkaConsumer(props);
 
-        // 消费者订阅的topic, 可同时订阅多个
+        // 消费者订阅的topic，与Producer一致
         consumer.subscribe(Arrays.asList(myTopic));
 
         while (true) {
-            // 读取数据，读取超时时间为2000ms
+            // 每隔2秒拉取一次数据
             ConsumerRecords<String, String> records = consumer.poll(2000);
             for (ConsumerRecord<String, String> record : records)
                 System.out.printf("offset = %d, key = %s, value = %s%n", record.offset(), record.key(), record.value());
