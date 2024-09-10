@@ -30,10 +30,10 @@ public class EmployeeService {
 
         try {
             // 插入（001， Li, Zion）
-           /* insertStatement.setString(1,"001");
+            insertStatement.setString(1,"001");
             insertStatement.setString(2,"Li");
             insertStatement.setString(3,"Zion");
-            insertStatement.executeUpdate();  // 执行并更新*/
+            insertStatement.executeUpdate();  // 执行并更新
 
             // 查询 id = 001
             selectStatement.setString(1, "001");
