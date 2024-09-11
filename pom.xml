@@ -24,6 +24,14 @@
             <version>8.0.33</version>
         </dependency>
 
+        <!-- postgresql JDBC驱动 -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.7.3</version>
+        </dependency>
+
+
 
     </dependencies>
 

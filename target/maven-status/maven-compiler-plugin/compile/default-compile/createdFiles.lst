@@ -14,11 +14,9 @@ chap5\circleQueue\CircleQueueByArrayTest.class
 chap5\stack\seqStack\SeqStackTest.class
 chap6\binaryTree\TreeNode.class
 chap5\linkedListQueue\LinkedListQueueTest.class
-chap8\mysql\EmployeeName.class
 chap6\bloomFilter\BloomFilter.class
 chap5\array\ArrayTest.class
 chap6\bPlusTree\BPlusTreeTest.class
-chap8\mysql\EmployeeSalary.class
 chap5\linkedList\Node.class
 chap6\skipList\SkipListNode.class
 chap6\unionFind\UnionFindTest.class
@@ -42,6 +40,7 @@ chap5\stack\seqStack\SeqStack.class
 chap8\mysql\EmployeeService.class
 chap6\bPlusTree\BPlusTreeNode.class
 chap6\binaryTree\BinaryTree.class
+chap8\postgresql\PgEmployeeService.class
 chap5\stack\linkedListStack\LinkedListStack.class
 chap6\skipList\SkipListTest.class
 chap5\array\ArrayAppendTest.class
