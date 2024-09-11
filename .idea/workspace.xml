@@ -7,15 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2edd7235-b3b4-4485-975e-052734539f0e" name="Default" comment="加法">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/demo1_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap8/git/命令文件.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap8/linux/DeployOnLinux.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap8/linux/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/generatorConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap8/git/命令文件.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap8/git/命令文件.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,8 +69,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/chap8/git/命令文件.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="189">
-                <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <first_editor relative-caret-position="162">
+                <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
               </first_editor>
               <second_editor />
             </state>
@@ -601,7 +594,7 @@
       <workItem from="1725885298277" duration="4357000" />
       <workItem from="1725958474299" duration="6057000" />
       <workItem from="1725966413657" duration="8279000" />
-      <workItem from="1726031116135" duration="7006000" />
+      <workItem from="1726031116135" duration="7591000" />
     </task>
     <task id="LOCAL-00001" summary="chap3">
       <created>1711877862616</created>
@@ -628,7 +621,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194867000" />
+    <option name="totallyTimeSpent" value="195452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="2062" height="1118" extended-state="6" />
@@ -1031,8 +1024,8 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/chap8/git/命令文件.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="189">
-            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <first_editor relative-caret-position="162">
+            <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
           </first_editor>
           <second_editor />
         </state>
