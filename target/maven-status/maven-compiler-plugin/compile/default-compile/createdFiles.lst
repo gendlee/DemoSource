@@ -14,6 +14,7 @@ chap5\circleQueue\CircleQueueByArrayTest.class
 chap5\stack\seqStack\SeqStackTest.class
 chap6\binaryTree\TreeNode.class
 chap5\linkedListQueue\LinkedListQueueTest.class
+chap8\linux\DeployOnLinux.class
 chap6\bloomFilter\BloomFilter.class
 chap5\array\ArrayTest.class
 chap6\bPlusTree\BPlusTreeTest.class
