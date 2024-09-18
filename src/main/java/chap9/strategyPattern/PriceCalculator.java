@@ -1,4 +1,4 @@
-package chap9.designPattern.strategyPattern;
+package chap9.strategyPattern;
 
 // 上下文类：使用不同的折扣策略
 public class PriceCalculator {

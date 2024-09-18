@@ -1,4 +1,4 @@
-package chap9.designPattern.singleton;
+package chap9.singleton;
 
 import java.lang.reflect.Constructor;
 

@@ -1,4 +1,4 @@
-package chap9.designPattern.simpleFactory;
+package chap9.simpleFactory;
 
 // 苹果类
 public class Apple implements Fruit {

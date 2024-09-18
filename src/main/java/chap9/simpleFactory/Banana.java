@@ -1,4 +1,4 @@
-package chap9.designPattern.simpleFactory;
+package chap9.simpleFactory;
 
 // 香蕉类
 public class Banana implements Fruit {

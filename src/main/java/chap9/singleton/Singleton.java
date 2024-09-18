@@ -1,4 +1,4 @@
-package chap9.designPattern.singleton;
+package chap9.singleton;
 
 public class Singleton {
     // 特点1：静态私有成员变量

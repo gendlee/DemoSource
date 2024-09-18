@@ -1,4 +1,4 @@
-package chap9.designPattern.simpleFactory;
+package chap9.simpleFactory;
 
 public class FruitFactoryTest {
     public static void main(String[] args) {

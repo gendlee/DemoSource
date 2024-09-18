@@ -1,4 +1,4 @@
-package chap9.designPattern.templateMethod;
+package chap9.templateMethod;
 
 abstract class DataProcessor {
     // 模板方法

@@ -1,4 +1,4 @@
-package chap9.designPattern.factory;
+package chap9.factory;
 
 public class DBLogFactory extends LogFactory{
     @Override

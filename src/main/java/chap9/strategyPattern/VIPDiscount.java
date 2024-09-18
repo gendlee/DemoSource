@@ -1,4 +1,4 @@
-package chap9.designPattern.strategyPattern;
+package chap9.strategyPattern;
 
 // VIP折扣
 class VIPDiscount implements DiscountStrategy {

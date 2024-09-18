@@ -1,4 +1,4 @@
-package chap9.designPattern.strategyPattern;
+package chap9.strategyPattern;
 
 public class StrategyTest {
     public static void main(String[] args) {

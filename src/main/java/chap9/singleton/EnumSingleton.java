@@ -1,4 +1,4 @@
-package chap9.designPattern.singleton;
+package chap9.singleton;
 
 public enum  EnumSingleton {
     INSTANCE;

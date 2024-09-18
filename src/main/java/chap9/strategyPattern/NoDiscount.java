@@ -1,4 +1,4 @@
-package chap9.designPattern.strategyPattern;
+package chap9.strategyPattern;
 
 // 没有折扣
 class NoDiscount implements DiscountStrategy {

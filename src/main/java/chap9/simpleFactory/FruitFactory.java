@@ -1,4 +1,4 @@
-package chap9.designPattern.simpleFactory;
+package chap9.simpleFactory;
 
 // 简单工厂类
 public class FruitFactory {

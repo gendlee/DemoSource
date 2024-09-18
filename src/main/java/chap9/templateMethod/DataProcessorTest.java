@@ -1,4 +1,4 @@
-package chap9.designPattern.templateMethod;
+package chap9.templateMethod;
 
 public class DataProcessorTest  {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package chap9.designPattern.strategyPattern;
+package chap9.strategyPattern;
 
 // 策略接口
 public interface DiscountStrategy {
