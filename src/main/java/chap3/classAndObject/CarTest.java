@@ -1,4 +1,4 @@
-package chap3;
+package chap3.classAndObject;
 
 public class CarTest {
     public static void main(String[] args) {

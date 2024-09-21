@@ -1,0 +1,2 @@
+FileWriter写入的
+BufferedWriter写入的

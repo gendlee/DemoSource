@@ -1,4 +1,4 @@
-package chap3;
+package chap3.classAndObject;
 
 public class Car {
     // 属性（成员变量）
