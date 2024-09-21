@@ -7,10 +7,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2edd7235-b3b4-4485-975e-052734539f0e" name="Default" comment="加法">
+      <change afterPath="$PROJECT_DIR$/src/main/java/chap3/multiThread/createThread/MyCallable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chap3/multiThread/createThread/MyRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/chap3/multiThread/createThread/MyThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/fileIO/copied_parrot.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/fileIO/写入的文件.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chap3/multiThread/ProducerConsumerExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/chap3/multiThread/ProducerConsumerExample.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,29 +58,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ExceptionDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap3/dealException/ExceptionDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CharStreamDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/chap3/fileIO/CharStreamDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
-              <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="62" />
+            <state relative-caret-position="729">
+              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ByteStreamDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MyThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap3/multiThread/createThread/MyThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyRunnable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap3/multiThread/createThread/MyRunnable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyCallable.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap3/multiThread/createThread/MyCallable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
+        <entry file="jar://E:/env/JRE 8/src.zip!/java/lang/Thread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="730" column="24" selection-start-line="730" selection-start-column="24" selection-end-line="730" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ByteStreamDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/chap3/fileIO/ByteStreamDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+            <state relative-caret-position="382">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,24 +165,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileWriter.java" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/env/JRE 8/src.zip!/java/io/FileWriter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="51" column="36" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OutputStreamWriter.java" pinned="false" current-in-tab="false">
-        <entry file="jar://E:/env/JRE 8/src.zip!/java/io/OutputStreamWriter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -190,10 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/chap9/designPattern/SingletonByReflection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chap9/designPattern/EnumSingleton.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chap9/designPattern/singleton/SingletonByReflection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/chap9/designPattern/simpleFactory/Fruit.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap9/designPattern/simpleFactory/Apple.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap9/designPattern/simpleFactory/Banana.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap9/designPattern/simpleFactory/FruitFactory.java" />
@@ -241,6 +249,10 @@
         <option value="$PROJECT_DIR$/src/main/java/chap3/multiThread/Producer.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap3/multiThread/Consumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap3/multiThread/ProducerConsumerExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chap3/multiThread/createThread/MyCallableImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chap3/multiThread/createThread/MyRunnable.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chap3/multiThread/createThread/MyThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chap3/multiThread/createThread/MyCallable.java" />
       </list>
     </option>
   </component>
@@ -345,6 +357,16 @@
               <item name="chap3" type="462c0819:PsiDirectoryNode" />
               <item name="multiThread" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="demo1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="chap3" type="462c0819:PsiDirectoryNode" />
+              <item name="multiThread" type="462c0819:PsiDirectoryNode" />
+              <item name="createThread" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -406,18 +428,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ByteStreamDemo">
-    <configuration name="AnimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap3.fourPrinciples.AnimalTest" />
-      <module name="demo1" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chap3.fourPrinciples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.MyCallable">
     <configuration name="ByteStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chap3.fileIO.ByteStreamDemo" />
       <module name="demo1" />
@@ -429,24 +440,35 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="CharStreamDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap3.fileIO.CharStreamDemo" />
+    <configuration name="MyCallable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap3.multiThread.createThread.MyCallable" />
       <module name="demo1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap3.fileIO.*" />
+          <option name="PATTERN" value="chap3.multiThread.createThread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap3.dealException.ExceptionDemo" />
+    <configuration name="MyRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap3.multiThread.createThread.MyRunnable" />
       <module name="demo1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap3.dealException.*" />
+          <option name="PATTERN" value="chap3.multiThread.createThread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MyThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chap3.multiThread.createThread.MyThread" />
+      <module name="demo1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chap3.multiThread.createThread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -504,19 +526,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.AnimalTest" />
-      <item itemvalue="Application.ExceptionDemo" />
-      <item itemvalue="Application.CharStreamDemo" />
       <item itemvalue="Application.ByteStreamDemo" />
       <item itemvalue="Application.ProducerConsumerExample" />
+      <item itemvalue="Application.MyThread" />
+      <item itemvalue="Application.MyRunnable" />
+      <item itemvalue="Application.MyCallable" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyCallable" />
+        <item itemvalue="Application.MyRunnable" />
+        <item itemvalue="Application.MyThread" />
         <item itemvalue="Application.ByteStreamDemo" />
         <item itemvalue="Application.ProducerConsumerExample" />
-        <item itemvalue="Application.CharStreamDemo" />
-        <item itemvalue="Application.ExceptionDemo" />
-        <item itemvalue="Application.AnimalTest" />
       </list>
     </recent_temporary>
   </component>
@@ -573,7 +595,7 @@
       <workItem from="1726671465023" duration="4342000" />
       <workItem from="1726833313807" duration="2896000" />
       <workItem from="1726891271961" duration="7029000" />
-      <workItem from="1726909954246" duration="6737000" />
+      <workItem from="1726909954246" duration="9992000" />
     </task>
     <task id="LOCAL-00001" summary="chap3">
       <created>1711877862616</created>
@@ -600,7 +622,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237008000" />
+    <option name="totallyTimeSpent" value="240263000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -625,13 +647,13 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.3299595" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32905984" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49949393" weight="0.37832093" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49949393" visible="true" weight="0.37832093" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.34006375" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4968153" visible="true" weight="0.354251" />
       <window_info anchor="right" id="Database" order="3" sideWeight="0.4991453" weight="0.23582996" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32837406" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32837406" />
       <window_info id="Structure" order="1" sideWeight="0.50318474" side_tool="true" weight="0.25455466" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -689,41 +711,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap9/singleton/SingletonByReflection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap9/simpleFactory/Fruit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap9/simpleFactory/Apple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap9/simpleFactory/Banana.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" selection-start-line="3" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap9/simpleFactory/FruitFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" selection-start-line="3" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chap9/simpleFactory/FruitFactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -997,13 +984,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/fileIO/CharStreamDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chap3/fileIO/copied_parrot.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1048,8 +1028,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chap3/fileIO/ByteStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        <state relative-caret-position="382">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/fileIO/parrot.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/fileIO/CharStreamDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="729">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/env/JRE 8/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="730" column="24" selection-start-line="730" selection-start-column="24" selection-end-line="730" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/multiThread/createThread/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/multiThread/createThread/MyRunnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/multiThread/createThread/MyCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
