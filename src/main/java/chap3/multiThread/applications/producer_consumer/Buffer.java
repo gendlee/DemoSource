@@ -1,4 +1,4 @@
-package chap3.multiThread;
+package chap3.multiThread.applications.producer_consumer;
 
 import java.util.LinkedList;
 import java.util.Queue;
@@ -22,7 +22,7 @@ public class Buffer {
         }
         // 放入数据
         list.add(value);
-        System.out.println("Produced " + value);
+        System.out.println("生产数据： " + value);
         // 通知消费者可以消费了
         notifyAll(); // 唤醒在等待的线程
     }
@@ -36,7 +36,7 @@ public class Buffer {
         }
         // 取出数据
         int value = list.poll();
-        System.out.println("Consumed " + value);
+        System.out.println("消费数据： " + value);
         // 通知生产者可以继续生产
         notifyAll(); // 唤醒在等待的线程
         return value;

@@ -1,5 +1,6 @@
-package chap3.multiThread;
+package chap3.multiThread.applications.producer_consumer;
 
+// 消费者程序
 public class Consumer implements Runnable {
     private Buffer buffer;
 
