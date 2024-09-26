@@ -7,14 +7,142 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2edd7235-b3b4-4485-975e-052734539f0e" name="Default" comment="加法">
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/increase_number/IncrementalPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/increase_number/IncrementalPrinterByLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/producer_consumer/ProducerConsumerExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/multiThread/Buffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/producer_consumer/Buffer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/multiThread/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/producer_consumer/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/multiThread/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/producer_consumer/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/multiThread/ProducerConsumerExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/Addition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/Addition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/Addition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/ControlStructure.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/ControlStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/ControlStructure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/JavaDataType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/JavaDataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/JavaDataType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/JavaDataTypeCasting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/JavaDataTypeCasting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/JavaDataTypeCasting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/Operators.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/Operators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/Operators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/classAndObject/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/classAndObject/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/classAndObject/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/classAndObject/CarTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/classAndObject/CarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/classAndObject/CarTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/dealException/ExceptionDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/dealException/ExceptionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/dealException/ExceptionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/fileIO/ByteStreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/fileIO/ByteStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/fileIO/ByteStreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/fileIO/CharStreamDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/fileIO/CharStreamDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/fileIO/CharStreamDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/fileIO/parrot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/fileIO/parrot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/fileIO/parrot.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/fourPrinciples/Animal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/fourPrinciples/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/fourPrinciples/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/fourPrinciples/AnimalInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/fourPrinciples/AnimalInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/fourPrinciples/AnimalInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/fourPrinciples/AnimalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/fourPrinciples/AnimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/fourPrinciples/AnimalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/fourPrinciples/Cat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/fourPrinciples/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/fourPrinciples/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/fourPrinciples/CatImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/fourPrinciples/CatImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/fourPrinciples/CatImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/fourPrinciples/Dog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/fourPrinciples/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/fourPrinciples/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/fourPrinciples/DogImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/fourPrinciples/DogImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/fourPrinciples/DogImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/increase_number/IncrementalPrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/increase_number/IncrementalPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/multiThread/applications/increase_number/IncrementalPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/increase_number/IncrementalPrinterByLock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/increase_number/IncrementalPrinterByLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/multiThread/applications/increase_number/IncrementalPrinterByLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/producer_consumer/Buffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/producer_consumer/Buffer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/multiThread/applications/producer_consumer/Buffer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/producer_consumer/Consumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/producer_consumer/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/multiThread/applications/producer_consumer/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/producer_consumer/Producer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/producer_consumer/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/multiThread/applications/producer_consumer/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/producer_consumer/ProducerConsumerExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/producer_consumer/ProducerConsumerExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/multiThread/applications/producer_consumer/ProducerConsumerExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/multiThread/createThread/MyCallable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/multiThread/createThread/MyCallable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/multiThread/createThread/MyCallable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/multiThread/createThread/MyRunnable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/multiThread/createThread/MyRunnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/multiThread/createThread/MyRunnable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/multiThread/createThread/MyThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap3/multiThread/createThread/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap2/multiThread/createThread/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/array/ArrayAppendTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap4/array/ArrayAppendTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/array/ArrayDeleteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap4/array/ArrayDeleteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/array/ArrayFindTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap4/array/ArrayFindTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/array/ArrayInsertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap4/array/ArrayInsertTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/array/ArrayModifyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap4/array/ArrayModifyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/array/ArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap4/array/ArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/circleQueue/CircleQueueByArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap4/circleQueue/CircleQueueByArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/circleQueue/CircleQueueByArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap4/circleQueue/CircleQueueByArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/doublyLinkedList/DNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap4/doublyLinkedList/DNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/doublyLinkedList/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap4/doublyLinkedList/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/doublyLinkedList/DoublyLinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap4/doublyLinkedList/DoublyLinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/linkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap4/linkedList/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/linkedList/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap4/linkedList/LinkedListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/linkedList/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap4/linkedList/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/linkedListQueue/LinkedListQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap4/linkedListQueue/LinkedListQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/linkedListQueue/LinkedListQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap4/linkedListQueue/LinkedListQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/seqQueue/SeqQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap4/seqQueue/SeqQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/seqQueue/SeqQueueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap4/seqQueue/SeqQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/stack/linkedListStack/LinkedListStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap4/stack/linkedListStack/LinkedListStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/stack/linkedListStack/LinkedListStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap4/stack/linkedListStack/LinkedListStackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/stack/seqStack/SeqStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap4/stack/seqStack/SeqStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap5/stack/seqStack/SeqStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap4/stack/seqStack/SeqStackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap6/bPlusTree/BPlusTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap5/bPlusTree/BPlusTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap6/bPlusTree/BPlusTreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap5/bPlusTree/BPlusTreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap6/bPlusTree/BPlusTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap5/bPlusTree/BPlusTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap6/bPlusTree/print.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap5/bPlusTree/print.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap6/binaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap5/binaryTree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap6/binaryTree/BinaryTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap5/binaryTree/BinaryTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap6/binaryTree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap5/binaryTree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap6/bloomFilter/BloomFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap5/bloomFilter/BloomFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap6/bloomFilter/BloomFilterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap5/bloomFilter/BloomFilterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap6/graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap5/graph/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap6/graph/GraphTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap5/graph/GraphTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap6/skipList/SkipList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap5/skipList/SkipList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap6/skipList/SkipListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap5/skipList/SkipListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap6/skipList/SkipListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap5/skipList/SkipListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap6/unionFind/UnionFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap5/unionFind/UnionFind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap6/unionFind/UnionFindTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap5/unionFind/UnionFindTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap7/dijkstra/Dijkstra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap6/dijkstra/Dijkstra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap7/dijkstra/DijkstraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap6/dijkstra/DijkstraTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap7/dp/JumpStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap6/dp/JumpStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap7/dp/LeastEnergyCost.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap6/dp/LeastEnergyCost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap7/dp/Levenshtein.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap6/dp/Levenshtein.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap7/dp/ZeroOneBag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap6/dp/ZeroOneBag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap7/kmeans/KMeans.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap6/kmeans/KMeans.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap7/kmeans/KMeansTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap6/kmeans/KMeansTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap7/pageRank/PageRank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap6/pageRank/PageRank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap7/pageRank/PageRankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap6/pageRank/PageRankTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap8/git/命令文件.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap7/git/命令文件.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap8/kafka/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap7/kafka/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap8/kafka/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap7/kafka/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap8/linux/DeployOnLinux.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap7/linux/DeployOnLinux.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap8/linux/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap7/linux/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap8/mysql/EmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap7/mysql/EmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap8/mysql/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap7/mysql/create.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap8/postgresql/PgEmployeeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap7/postgresql/PgEmployeeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap8/postgresql/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap7/postgresql/create.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap9/factory/DBLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap8/factory/DBLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap9/factory/DBLogFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap8/factory/DBLogFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap9/factory/FactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap8/factory/FactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap9/factory/FileLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap8/factory/FileLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap9/factory/FileLogFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap8/factory/FileLogFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap9/factory/Log.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap8/factory/Log.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap9/factory/LogFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap8/factory/LogFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap9/simpleFactory/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap8/simpleFactory/Apple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap9/simpleFactory/Banana.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap8/simpleFactory/Banana.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap9/simpleFactory/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap8/simpleFactory/Fruit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap9/simpleFactory/FruitFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap8/simpleFactory/FruitFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap9/simpleFactory/FruitFactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap8/simpleFactory/FruitFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap9/singleton/EnumSingleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap8/singleton/EnumSingleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap9/singleton/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap8/singleton/Singleton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap9/singleton/SingletonByReflection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap8/singleton/SingletonByReflection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap9/strategyPattern/DiscountStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap8/strategyPattern/DiscountStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap9/strategyPattern/NoDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap8/strategyPattern/NoDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap9/strategyPattern/PriceCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap8/strategyPattern/PriceCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap9/strategyPattern/StrategyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap8/strategyPattern/StrategyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap9/strategyPattern/VIPDiscount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap8/strategyPattern/VIPDiscount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap9/templateMethod/DataProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap8/templateMethod/DataProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap9/templateMethod/DataProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap8/templateMethod/DataProcessorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/chap9/描述.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/chap8/描述.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chap3/Chap5Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/chap3/Chap5Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/chap2/Chap5Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -63,7 +191,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file leaf-file-name="MyThread.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap3/multiThread/createThread/MyThread.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap2/multiThread/createThread/MyThread.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
               <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
@@ -72,7 +200,7 @@
         </entry>
       </file>
       <file leaf-file-name="MyRunnable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap3/multiThread/createThread/MyRunnable.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap2/multiThread/createThread/MyRunnable.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="621">
               <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
@@ -81,10 +209,10 @@
         </entry>
       </file>
       <file leaf-file-name="MyCallable.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap3/multiThread/createThread/MyCallable.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap2/multiThread/createThread/MyCallable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+            <state relative-caret-position="837">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,7 +221,7 @@
         </entry>
       </file>
       <file leaf-file-name="IncrementalPrinter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/increase_number/IncrementalPrinter.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap2/multiThread/applications/increase_number/IncrementalPrinter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="162">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -102,10 +230,10 @@
         </entry>
       </file>
       <file leaf-file-name="IncrementalPrinterByLock.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/increase_number/IncrementalPrinterByLock.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap2/multiThread/applications/increase_number/IncrementalPrinterByLock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            <state relative-caret-position="432">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,10 +242,10 @@
         </entry>
       </file>
       <file leaf-file-name="ProducerConsumerExample.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/producer_consumer/ProducerConsumerExample.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap2/multiThread/applications/producer_consumer/ProducerConsumerExample.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="513">
-              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -125,27 +253,23 @@
       <file leaf-file-name="Thread.java" pinned="false" current-in-tab="false">
         <entry file="jar://E:/env/JRE 8/src.zip!/java/lang/Thread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18225">
+            <state relative-caret-position="19710">
               <caret line="730" column="24" selection-start-line="730" selection-start-column="24" selection-end-line="730" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Producer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/producer_consumer/Producer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap2/multiThread/applications/producer_consumer/Producer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="81">
               <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding>
-                <element signature="e#148#149#0" expanded="true" />
-                <element signature="e#184#185#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Consumer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/producer_consumer/Consumer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap2/multiThread/applications/producer_consumer/Consumer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="81">
               <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
@@ -154,9 +278,9 @@
         </entry>
       </file>
       <file leaf-file-name="Buffer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/producer_consumer/Buffer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/chap2/multiThread/applications/producer_consumer/Buffer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
+            <state relative-caret-position="135">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -202,7 +326,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/chap9/designPattern/factory/FileLogFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap9/designPattern/factory/DBLogFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap9/designPattern/factory/DBLog.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap9/designPattern/factory/MainTest.java" />
@@ -253,6 +376,7 @@
         <option value="$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/Consumer.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/ProducerConsumerExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/producer_consumer/ProducerConsumerExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/chap2/multiThread/applications/increase_number/IncrementalPrinterByLock.java" />
       </list>
     </option>
   </component>
@@ -306,6 +430,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -332,28 +457,10 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="demo1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="chap3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="demo1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="demo1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="chap3" type="462c0819:PsiDirectoryNode" />
-              <item name="multiThread" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -411,56 +518,56 @@
   </component>
   <component name="RunManager" selected="Application.ProducerConsumerExample">
     <configuration name="IncrementalPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap3.multiThread.applications.increase_number.IncrementalPrinter" />
+      <option name="MAIN_CLASS_NAME" value="chap2.multiThread.applications.increase_number.IncrementalPrinter" />
       <module name="demo1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap3.multiThread.applications.producer_consumer.*" />
+          <option name="PATTERN" value="chap2.multiThread.applications.producer_consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="IncrementalPrinterByLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap3.multiThread.applications.increase_number.IncrementalPrinterByLock" />
+      <option name="MAIN_CLASS_NAME" value="chap2.multiThread.applications.increase_number.IncrementalPrinterByLock" />
       <module name="demo1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap3.multiThread.applications.producer_consumer.*" />
+          <option name="PATTERN" value="chap2.multiThread.applications.producer_consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="MyCallable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap3.multiThread.createThread.MyCallable" />
+      <option name="MAIN_CLASS_NAME" value="chap2.multiThread.createThread.MyCallable" />
       <module name="demo1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap3.multiThread.createThread.*" />
+          <option name="PATTERN" value="chap2.multiThread.createThread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="MyRunnable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap3.multiThread.createThread.MyRunnable" />
+      <option name="MAIN_CLASS_NAME" value="chap2.multiThread.createThread.MyRunnable" />
       <module name="demo1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap3.multiThread.createThread.*" />
+          <option name="PATTERN" value="chap2.multiThread.createThread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration name="ProducerConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chap3.multiThread.applications.producer_consumer.ProducerConsumerExample" />
+      <option name="MAIN_CLASS_NAME" value="chap2.multiThread.applications.producer_consumer.ProducerConsumerExample" />
       <module name="demo1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chap3.multiThread.applications.producer_consumer.*" />
+          <option name="PATTERN" value="chap2.multiThread.applications.producer_consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -578,6 +685,7 @@
       <workItem from="1726891271961" duration="7029000" />
       <workItem from="1726909954246" duration="10078000" />
       <workItem from="1726975442159" duration="5278000" />
+      <workItem from="1727319070884" duration="71000" />
     </task>
     <task id="LOCAL-00001" summary="chap3">
       <created>1711877862616</created>
@@ -604,7 +712,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="245627000" />
+    <option name="totallyTimeSpent" value="245698000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -621,7 +729,6 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32943678" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32731137" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -633,7 +740,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.34074074" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4968153" visible="true" weight="0.36032388" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4968153" visible="true" weight="0.36639675" />
       <window_info anchor="right" id="Database" order="3" sideWeight="0.4991453" weight="0.23582996" />
       <window_info id="Structure" order="1" sideWeight="0.50318474" side_tool="true" weight="0.25455466" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -648,6 +755,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32837406" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32731137" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -693,196 +801,196 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap9/factory/DBLogFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap8/factory/DBLogFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="44" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap9/factory/LogFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap8/factory/LogFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap9/factory/Log.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap8/factory/Log.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" selection-start-line="2" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap9/factory/FileLog.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap8/factory/FileLog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap9/factory/FileLogFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap8/factory/FileLogFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap9/factory/FactoryTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap8/factory/FactoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap9/templateMethod/DataProcessor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap8/templateMethod/DataProcessor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="864">
           <caret line="40" column="1" selection-start-line="40" selection-start-column="1" selection-end-line="40" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap9/templateMethod/DataProcessorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap8/templateMethod/DataProcessorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap9/strategyPattern/PriceCalculator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap8/strategyPattern/PriceCalculator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" selection-start-line="2" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap9/strategyPattern/NoDiscount.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap8/strategyPattern/NoDiscount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap9/strategyPattern/VIPDiscount.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap8/strategyPattern/VIPDiscount.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" selection-start-line="2" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap9/strategyPattern/StrategyTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap8/strategyPattern/StrategyTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
           <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap9/strategyPattern/DiscountStrategy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap8/strategyPattern/DiscountStrategy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap7/dijkstra/Dijkstra.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap6/dijkstra/Dijkstra.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap7/dijkstra/DijkstraTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap6/dijkstra/DijkstraTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap7/kmeans/KMeansTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap6/kmeans/KMeansTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap7/kmeans/KMeans.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap6/kmeans/KMeans.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2457">
           <caret line="94" column="13" selection-start-line="94" selection-start-column="13" selection-end-line="94" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/Addition.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/Addition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/ControlStructure.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/ControlStructure.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/classAndObject/Car.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/classAndObject/Car.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/classAndObject/CarTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/classAndObject/CarTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/fourPrinciples/Cat.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/fourPrinciples/Cat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/fourPrinciples/Dog.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/fourPrinciples/Dog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" selection-start-line="2" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/fourPrinciples/Animal.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/fourPrinciples/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/fourPrinciples/AnimalInterface.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/fourPrinciples/AnimalInterface.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" selection-start-line="2" selection-end-line="8" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/fourPrinciples/CatImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/fourPrinciples/CatImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/fourPrinciples/DogImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/fourPrinciples/DogImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="2" selection-start-line="2" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/fourPrinciples/AnimalTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/fourPrinciples/AnimalTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
           <caret line="19" column="1" selection-start-line="2" selection-end-line="19" selection-end-column="1" />
@@ -903,7 +1011,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/dealException/ExceptionDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/dealException/ExceptionDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
@@ -931,7 +1039,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chap3/fileIO/写入的文件.txt" />
     <entry file="file://$PROJECT_DIR$/src/main/java/chap3/fileIO/copied_parrot.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/fileIO/ByteStreamDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/fileIO/ByteStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="22" selection-start-line="22" selection-end-line="22" />
@@ -941,10 +1049,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/fileIO/parrot.jpg">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/fileIO/parrot.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/fileIO/CharStreamDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/fileIO/CharStreamDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="891">
           <caret line="33" column="9" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
@@ -953,38 +1061,38 @@
     </entry>
     <entry file="jar://E:/env/JRE 8/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18225">
+        <state relative-caret-position="19710">
           <caret line="730" column="24" selection-start-line="730" selection-start-column="24" selection-end-line="730" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/multiThread/createThread/MyThread.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/multiThread/createThread/MyThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/multiThread/createThread/MyRunnable.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/multiThread/createThread/MyRunnable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="621">
           <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/multiThread/createThread/MyCallable.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/multiThread/createThread/MyCallable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+        <state relative-caret-position="837">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/producer_consumer/Buffer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/multiThread/applications/producer_consumer/Buffer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
+        <state relative-caret-position="135">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -992,42 +1100,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/producer_consumer/Consumer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/multiThread/applications/producer_consumer/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/producer_consumer/Producer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/multiThread/applications/producer_consumer/Producer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding>
-            <element signature="e#148#149#0" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/producer_consumer/ProducerConsumerExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/multiThread/applications/producer_consumer/ProducerConsumerExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/increase_number/IncrementalPrinter.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/multiThread/applications/increase_number/IncrementalPrinter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/chap3/multiThread/applications/increase_number/IncrementalPrinterByLock.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/chap2/multiThread/applications/increase_number/IncrementalPrinterByLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        <state relative-caret-position="432">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
